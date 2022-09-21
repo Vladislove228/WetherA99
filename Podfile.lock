@@ -83,10 +83,18 @@ PODS:
   - nanopb/decode (2.30909.0)
   - nanopb/encode (2.30909.0)
   - PromisesObjC (2.1.1)
+  - ReachabilitySwift (5.0.0)
+  - Realm (10.28.2):
+    - Realm/Headers (= 10.28.2)
+  - Realm/Headers (10.28.2)
+  - RealmSwift (10.28.2):
+    - Realm (= 10.28.2)
   - SwiftLint (0.47.1)
 
 DEPENDENCIES:
   - FirebaseAnalytics
+  - ReachabilitySwift
+  - RealmSwift
   - SwiftLint
 
 SPEC REPOS:
@@ -101,6 +109,9 @@ SPEC REPOS:
     - GoogleUtilities
     - nanopb
     - PromisesObjC
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
     - SwiftLint
 
 SPEC CHECKSUMS:
@@ -114,8 +125,11 @@ SPEC CHECKSUMS:
   GoogleUtilities: e0913149f6b0625b553d70dae12b49fc62914fd1
   nanopb: b552cce312b6c8484180ef47159bc0f65a1f0431
   PromisesObjC: ab77feca74fa2823e7af4249b8326368e61014cb
+  ReachabilitySwift: 985039c6f7b23a1da463388634119492ff86c825
+  Realm: e617c54ad0f566b3d0f6a2abae7010de05f252ac
+  RealmSwift: 8a516a8759d80d52ebcec1ff1076f5f5159f98b2
   SwiftLint: f80f1be7fa96d30e0aa68e58d45d4ea1ccaac519
 
-PODFILE CHECKSUM: 206b8db3e6359d036742beeee1e47eb71b4f27f9
+PODFILE CHECKSUM: a2f8198021b3c009bab01ae8b874336cae4a534d
 
 COCOAPODS: 1.11.3
